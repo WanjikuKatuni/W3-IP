@@ -37,5 +37,29 @@ $(document).ready(function(){
         $(".show-2").toggle()
         $(".hide-2").toggle()
     })
+    $(".hide-3").hover(function(){
+        $(".show-3").toggle()
+        $(".hide-3").toggle()
+    })
+    $(".hide-4").hover(function(){
+        $(".show-4").toggle()
+        $(".hide-4").toggle()
+    })
+    $(".hide-5").hover(function(){
+        $(".show-5").toggle()
+        $(".hide-5").toggle()
+    })
+    $(".hide-6").hover(function(){
+        $(".show-6").toggle()
+        $(".hide-6").toggle()
+    })
+    $(".hide-7").hover(function(){
+        $(".show-7").toggle()
+        $(".hide-7").toggle()
+    })
+    $(".hide-8").hover(function(){
+        $(".show-8").toggle()
+        $(".hide-8").toggle()
+    })
 })
 

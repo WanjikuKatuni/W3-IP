@@ -71,16 +71,35 @@ form .form-control::placeholder {
 .show-2{
     display: none;
 }
+.show-3{
+    display: none;
+}
+.show-4{
+    display: none;
+}
+.show-5{
+    display: none;
+}
+.show-6{
+    display: none;
+}
+.show-7{
+    display: none;
+}
+.show-8{
+    display: none;
+}
 .image-container{
     position: relative;
-    
 
  
 }
 .caption {
     width:100%;
-    color: white;
+    color: mintcream;
     position: absolute;
+    font-weight: 1300;
     top:60px;
+    font-size: xx-large;
    
 }
