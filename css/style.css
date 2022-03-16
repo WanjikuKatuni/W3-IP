@@ -32,3 +32,15 @@ form .form-control::placeholder {
     color: white;
     opacity: 1;
 }
+
+.show-des {
+    display: none;
+}
+
+.show-dev {
+    display: none;
+}
+
+ .show-pm {
+    display: none;
+}
