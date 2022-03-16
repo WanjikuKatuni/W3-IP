@@ -10,6 +10,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- Begin Mailchimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css"/>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
         <script src="js/script.js"></script>
@@ -154,6 +156,14 @@
                                     <div class="card-body">
                                         <div class="container overflow-hidden">
                                             <div class="row row-cols-4 gy-5">
+                                                <!-- portfolio 1 -->
+                                                 <!-- portfolio 2 -->
+                                                  <!-- portfolio 3 -->
+                                                   <!-- portfolio 4 -->
+                                                    <!-- portfolio 5-->
+                                                     <!-- portfolio 6 -->
+                                                      <!-- portfolio 7 -->
+                                                       <!-- portfolio 8 -->
                                               <div class="col">
                                                 <a href="#">
                                                     <img src="images/p1.jpg" class="img-fluid" alt="portfolio 1">
@@ -216,25 +226,62 @@
                                 </div>
                                 <div class="card-body">
                                     <!-- insert form  for contact-us-->
-                                    <form class="row g-3">
+                                    <form action="https://na.us14.list-manage.com/subscribe/post?u=8f8c6ca9a7857067be0a7aa1c&amp;id=6948b17df1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="row g-3 validate" target="_blank" novalidate>
                                         <!-- input name -->
-                                        <div class="col-md-6">
-                                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                        <div  class="col-md-6">
+                                            <input type="text" name="NAME" class="form-control" id="inputName" placeholder="Name">
                                         </div>
                                         <!-- input email -->
                                         <div class="col-md-6">
                                             
-                                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                                            <input type="email" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Email" value="" required>
                                         </div>
                                         <!-- input contents section -->
                                         <div class= "col-md-11 mx-auto">
-                                            <textarea id="message" name="message" class="form-control" rows="6" maxlength="3000" placeholder="Your message here..." required></textarea>
+                                            <textarea id="message" name="MESSAGE" class="form-control" rows="6" maxlength="3000" placeholder="Your message here..." required></textarea>
                                         </div>
+                                         <!-- submit function -->
+                                    <div id="mce-responses" class="clear foot">
+                                        <div
+                                          class="respons
+                                          id="mce-error-response"
+                                          style="display: none"
+                                        ></div>
+                                        <div
+                                          class="response"
+                                          id="mce-success-response"
+                                          style="display: none"
+                                        ></div>
+                                      </div>
+                                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                      <div style="position: absolute; left: -5000px" aria-hidden="true">
+                                        <input
+                                          type="text"
+                                          name="b_8f8c6ca9a7857067be0a7aa1c_6948b17df1"
+                                          tabindex="-1"
+                                          value=""
+                                        />
+                                      </div>
+                                      <div class="optionalParent">
+                                        <div class="clear foot">
+                                          <input
+                                            type="submit"
+                                            value="Subscribe"
+                                            name="subscribe"
+                                            id="mc-embedded-subscribe"
+                                            class="button"
+                                          />
+                                          <p class="brandingLogo">
+                                            <a
+                                              href="http://eepurl.com/hXh9Bv"
+                                              title="Mailchimp - email marketing made easy and fun"
+                                              ><img
+                                                src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"
+                                            /></a>
+                                          </p>
+                                        </div>
+                                      </div>
                                     </form>
-                                    <!-- submit function -->
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -277,5 +324,22 @@
                 <h4 style="text-align:center">2019</h4>
             </footer>         
         </div>
+        <script
+  type="text/javascript"
+  src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+></script>
+<script type="text/javascript">
+  (function ($) {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0] = "EMAIL";
+    ftypes[0] = "email";
+    fnames[1] = "NAME";
+    ftypes[1] = "text";
+    fnames[2] = "MESSAGE";
+    ftypes[2] = "text";
+  })(jQuery);
+  var $mcj = jQuery.noConflict(true);
+</script>
     </body>
 </html>

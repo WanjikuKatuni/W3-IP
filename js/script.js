@@ -1,3 +1,5 @@
+
+//what we do click toggle
 $(document).ready(function(){
     $(".hide-des").click(function(){
         $(".show-des").toggle()
@@ -24,4 +26,8 @@ $(document).ready(function(){
         $(".show-pm").toggle()
         $(".hide-pm").toggle()
     })
+})
+// portfolio hover toggle
+$(document).ready(function(){
+
 })
