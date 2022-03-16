@@ -1,13 +1,13 @@
 $(document).ready(function(){
-    $(".hide-des").click(function(){
+    $(".hide-des").hover(function(){
         $(".show-des").toggle()
         $(".hide-des").toggle()
     })
-    $(".hide-dev").click(function(){
+    $(".hide-dev").hover(function(){
         $(".show-dev").toggle()
         $(".hide-dev").toggle()
     })
-    $(".hide-pm").click(function(){
+    $(".hide-pm").hover(function(){
         $(".show-pm").toggle()
         $(".hide-pm").toggle()
     })
