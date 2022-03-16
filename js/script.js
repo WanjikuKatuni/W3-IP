@@ -25,17 +25,3 @@ $(document).ready(function(){
         $(".hide-pm").toggle()
     })
 })
-//     // when you click it does not dissapear
-//     $(".hide-des").click(function(){
-//         $(".show-des").show()
-       
-//     })
-//     $(".hide-dev").click(function(){
-//         $(".show-dev").show()
-       
-//     })
-//     $(".hide-pm").click(function(){
-//         $(".show-pm").show()
-        
-//     })
-// })
