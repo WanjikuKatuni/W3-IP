@@ -5,3 +5,7 @@
     display: block;
     
 } */
+
+.form-control {
+    background-color: transparent;
+}
