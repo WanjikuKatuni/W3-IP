@@ -6,6 +6,10 @@
     
 } */
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
 .form-control {
     background-color: transparent;
 }
