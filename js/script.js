@@ -1,6 +1,12 @@
 
 //what we do click toggle
 $(document).ready(function(){
+    //toggle entire page
+    $("#mouse-click").click(function(){
+        $(".section-2").toggle()
+        $(".landing-page").toggle()
+    })
+    //toggle what we do
     $(".hide-des").click(function(){
         $(".show-des").toggle()
         $(".hide-des").toggle()
