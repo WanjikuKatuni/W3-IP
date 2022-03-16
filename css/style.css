@@ -9,3 +9,26 @@
 .form-control {
     background-color: transparent;
 }
+
+/* chrome */
+::-webkit-input-placeholder{
+    color: white;
+    opacity: 1;
+}
+/* mozilla 4 to 18 placeholder */
+:-moz-placeholder {
+    color:white
+}
+/*  mozilla 19+ placeholder*/
+::-moz-placeholder {
+    color: white;
+}
+/* edge placeholder */
+::-ms-input-placeholder {
+    color: white;
+}
+/* general placeholder */
+::placeholder {
+    color: white;
+    opacity: 1;
+}
