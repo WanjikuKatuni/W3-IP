@@ -1,6 +1,6 @@
 # Delani Studio
 This is a web application for Delani studio. It has information on the studio, its portfolio and how to reach the studio
-[![images/DELANI-STUDIO.jpd]
+[![images/DELANI-STUDIO.jpg]
 ## Technologies Used
 - HTML & CSS (Bootstrap)
 - Javascript & Jquery
