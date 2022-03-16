@@ -36,9 +36,9 @@ form .form-control::placeholder {
     color: white;
     opacity: 1;
 }
-/* .section-2 {
+.section-2 {
     display: none;
-} */
+}
 
 .show-des {
     display: none;
