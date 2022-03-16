@@ -1,6 +1,6 @@
 # Delani Studio
 This is a web application for Delani studio. It has information on the studio, its portfolio and how to reach the studio
-[![images/DELANI-STUDIO.jpg]
+[![image](https://github.com/WanjikuKatuni/W3-IP/blob/master/images/DELANI-STUDIO.jpg?raw=true)]
 ## Technologies Used
 - HTML & CSS (Bootstrap)
 - Javascript & Jquery
