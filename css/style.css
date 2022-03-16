@@ -65,3 +65,6 @@ form .form-control::placeholder {
   
 }
 
+.show-1{
+    display:none;
+}

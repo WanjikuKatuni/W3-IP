@@ -29,5 +29,8 @@ $(document).ready(function(){
 })
 // portfolio hover toggle
 $(document).ready(function(){
-
+    $(".hide-1").hover(function(){
+        $(".show-1").toggle()
+        $(".hide-1").toggle()
+    })
 })
