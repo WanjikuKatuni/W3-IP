@@ -11,24 +11,24 @@
 }
 
 /* chrome */
-::-webkit-input-placeholder{
+form .form-control::-webkit-input-placeholder{
     color: white;
     opacity: 1;
 }
 /* mozilla 4 to 18 placeholder */
-:-moz-placeholder {
+form .form-control:-moz-placeholder {
     color:white
 }
 /*  mozilla 19+ placeholder*/
-::-moz-placeholder {
+form .form-control::-moz-placeholder {
     color: white;
 }
 /* edge placeholder */
-::-ms-input-placeholder {
+form .form-control::-ms-input-placeholder {
     color: white;
 }
 /* general placeholder */
-::placeholder {
+form .form-control::placeholder {
     color: white;
     opacity: 1;
 }
