@@ -1,13 +1,26 @@
 $(document).ready(function(){
-    $(".hide-des").hover(function(){
+    $(".hide-des").click(function(){
         $(".show-des").toggle()
         $(".hide-des").toggle()
     })
-    $(".hide-dev").hover(function(){
+    $(".hide-dev").click(function(){
         $(".show-dev").toggle()
         $(".hide-dev").toggle()
     })
-    $(".hide-pm").hover(function(){
+    $(".hide-pm").click(function(){
+        $(".show-pm").toggle()
+        $(".hide-pm").toggle()
+    })
+
+    $(".show-des").click(function(){
+        $(".show-des").toggle()
+        $(".hide-des").toggle()
+    })
+    $(".show-dev").click(function(){
+        $(".show-dev").toggle()
+        $(".hide-dev").toggle()
+    })
+    $(".show-pm").click(function(){
         $(".show-pm").toggle()
         $(".hide-pm").toggle()
     })
