@@ -44,3 +44,19 @@ form .form-control::placeholder {
  .show-pm {
     display: none;
 }
+
+.des-icon {
+   
+    display: block;
+    
+}
+.dev-icon {
+    
+    display: block;
+  
+}
+.pm-icon {
+    
+    display: block;
+  
+}
