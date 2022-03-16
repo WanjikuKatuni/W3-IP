@@ -68,3 +68,19 @@ form .form-control::placeholder {
 .show-1{
     display:none;
 }
+.show-2{
+    display: none;
+}
+.image-container{
+    position: relative;
+    
+
+ 
+}
+.caption {
+    width:100%;
+    color: white;
+    position: absolute;
+    top:60px;
+   
+}

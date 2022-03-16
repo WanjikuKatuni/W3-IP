@@ -26,11 +26,16 @@ $(document).ready(function(){
         $(".show-pm").toggle()
         $(".hide-pm").toggle()
     })
-})
-// portfolio hover toggle
-$(document).ready(function(){
+
+
+    // portfolio hover toggle
     $(".hide-1").hover(function(){
         $(".show-1").toggle()
         $(".hide-1").toggle()
     })
+    $(".hide-2").hover(function(){
+        $(".show-2").toggle()
+        $(".hide-2").toggle()
+    })
 })
+
